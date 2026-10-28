@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Conoce KebianOS, una distribución Linux basada en Debian y KDE que está en desarrollo.">
+    <meta name="theme-color" content="#10204e">
+    <title>KebianOS | Una distro Linux en desarrollo</title>
+    <link rel="icon" type="image/png" href="../logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#inicio" aria-label="KebianOS, inicio">
+          <img src="../logo.png" alt="">
+          <span>KebianOS</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Navegación principal">
+          <ul class="nav-list">
+            <li><a class="nav-download" href="#descargas">Descargar</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="more-menu"
+              >
+                Más <span class="dropdown-arrow" aria-hidden="true"></span>
+              </button>
+              <ul class="dropdown-menu" id="more-menu" hidden>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#filosofia">Filosofía</a></li>
+                <li><a href="#experiencia">El proyecto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <p class="eyebrow"><span class="status-dot"></span> DISTRIBUCIÓN LINUX · EN DESARROLLO</p>
+          <h1 id="hero-title">KebianOS<span class="title-mark">.</span></h1>
+          <p class="hero-copy">
+            Una distribución basada en Debian y KDE, pensada para equipos modestos
+            y para quienes se acercan a Linux por primera vez.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#filosofia">Conocer la propuesta</a>
+            <a class="button button-text" href="#descargas">Ver estado de descarga <span aria-hidden="true">&#8594;</span></a>
+          </div>
+
+          <dl class="hero-facts" aria-label="Resumen de KebianOS">
+            <div>
+              <dt>BASE</dt>
+              <dd>Debian</dd>
+            </div>
+            <div>
+              <dt>ESCRITORIO</dt>
+              <dd>KDE</dd>
+            </div>
+            <div>
+              <dt>ESTADO</dt>
+              <dd>En desarrollo</dd>
+            </div>
+          </dl>
+        </div>
+        <span class="hero-index" aria-hidden="true">01 / KOS</span>
+      </section>
+
+      <section class="philosophy section-light" id="filosofia" aria-labelledby="philosophy-title">
+        <div class="content-width">
+          <div class="section-heading">
+            <p class="section-label">01 <span>/</span> LA IDEA</p>
+            <h2 id="philosophy-title">Linux para usar, aprender y hacer propio.</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              Empezar con Linux no debería sentirse como descifrar un manual.
+              KebianOS busca ofrecer un punto de partida claro, con una base
+              conocida y espacio para descubrir a tu ritmo.
+            </p>
+            <p>
+              La propuesta está pensada para equipos modestos y para personas
+              que dan sus primeros pasos, sin perder de vista a quienes quieren
+              aprender cómo funciona su sistema.
+            </p>
+          </div>
+        </div>
+
+        <ol class="principles content-width">
+          <li>
+            <span class="principle-number">01</span>
+            <h3>Una base conocida</h3>
+            <p>Debian como punto de partida para construir la distribución.</p>
+          </li>
+          <li>
+            <span class="principle-number">02</span>
+            <h3>Un escritorio familiar</h3>
+            <p>KDE como entorno para trabajar, explorar y personalizar.</p>
+          </li>
+          <li>
+            <span class="principle-number">03</span>
+            <h3>Un proyecto en marcha</h3>
+            <p>La identidad y la experiencia siguen tomando forma.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="project section-dark" id="experiencia" aria-labelledby="project-title">
+        <div class="content-width project-layout">
+          <div>
+            <p class="section-label section-label-light">02 <span>/</span> EL PROYECTO</p>
+            <h2 id="project-title">Hecho con intención. Todavía en construcción.</h2>
+          </div>
+          <div class="project-copy">
+            <p>
+              KebianOS es una distribución independiente en desarrollo. Esta
+              página presenta su dirección y sus objetivos; no representa una
+              versión final ni sustituye la documentación del sistema.
+            </p>
+            <a class="text-link" href="#descargas">Consultar el estado <span aria-hidden="true">&#8594;</span></a>
+          </div>
+        </div>
+
+        <div class="project-line content-width" aria-label="Datos del proyecto">
+          <div><span>01</span><strong>Debian</strong><small>Distribución base</small></div>
+          <div><span>02</span><strong>KDE</strong><small>Entorno de escritorio</small></div>
+          <div><span>03</span><strong>En desarrollo</strong><small>Estado actual</small></div>
+        </div>
+      </section>
+
+      <section class="downloads section-light" id="descargas" aria-labelledby="downloads-title">
+        <div class="content-width downloads-layout">
+          <div>
+            <p class="section-label">03 <span>/</span> DESCARGAS</p>
+            <h2 id="downloads-title">La primera ISO todavía no está publicada.</h2>
+            <p class="downloads-copy">
+              Estamos preparando el proyecto. Por ahora no hay un archivo de
+              instalación disponible para descargar.
+            </p>
+          </div>
+          <div class="release-status" role="status">
+            <p class="status-heading"><span class="status-dot"></span> ESTADO DE LA IMAGEN</p>
+            <p class="status-value">En preparación</p>
+            <p class="status-note">Vuelve a consultar esta página cuando haya novedades.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-accent" id="contacto" aria-labelledby="contact-title">
+        <div class="content-width contact-inner">
+          <p class="section-label">04 <span>/</span> CONTACTO</p>
+          <h2 id="contact-title">Un proyecto abierto a nuevas ideas.</h2>
+          <p>El canal oficial de contacto todavía está en preparación.</p>
+          <a class="contact-link" href="#inicio">Volver al inicio <span aria-hidden="true">&#8593;</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="content-width footer-inner">
+        <a class="footer-brand" href="#inicio">KebianOS</a>
+        <p>Una distribución Linux basada en Debian y KDE.</p>
+        <a href="#inicio" class="back-to-top">Volver arriba &#8593;</a>
+      </div>
+    </footer>
+  </body>
+</html>

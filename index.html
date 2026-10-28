@@ -2,12 +2,55 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Kebian OS</title>
+    <title>KebianOS | Un sistema para cualquiera</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+    <script src="script.js" defer></script>
   </head>
+
   <body>
-    <h1>Kebian OS</h1>
-    <p>Bienvenido a Kebian OS, un sistema operativo basado en Debian.</p>
-    <p>Este sistema operativo está diseñado para ofrecer estabilidad, seguridad y facilidad de uso.</p>
-    <p>Esta pagina esta en desarrollo.</p> 
+    <header class="site-header">
+      <div class="brand">
+        <img src="logo.png" alt="Logo de Kebian OS" class="logo">
+        <div>
+          <h1>KebianOS</h1>
+          <p>Un Sistema operativo rapido y facil de usar</p>
+        </div>
+      </div>
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="descargar.html">Descargar</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="documentacion.html">Documentacion</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Inicio de la pagina, un resumen corto sobre que es la distro, en que se basa y cual es nuestra filosofia-->
+    <section id="what-kebianos-porque logo-debian" aria-labelledby="copy" class="what-kebianos-sec">
+      <div class="what-kebianos sec-layaut">
+        <div class="kebianos-expli">
+          <h2 class="title-1">Que es KebianOS</h2>
+          <h3 class="copy">KebianOS es un sistema operativo basado en <a href="https://www.debian.org/releases/trixie/index.es.html" class="Link-1">Debian 13</a> el cual es una distribucion de <a href="https://www.linux.org/" class="Link-1">Linux</a> culla filosofia es la estabilidad extrema, y nosotros el equipo de KebianOS tomamos esa estabilidad extrema y le añadimos una capa de optimizaciones, tambien  escojimos las mejores aplicaciones segun nuestros criterios y hasta donde lo legal nos deja, para facilitar el uso de nuestro sistema para usuarios nuevos en el mundo de linux,
+          asi nos aseguramos que su experiencia sea lo mas comoda para los usuarios menos experimentados y ofrecemos una experiencia de usuario mucho menos pesadas para estos mismos, con una suit ofimatica <a href="https://www.onlyoffice.com/" class="Link-1">OnlyOffice</a> para que el usuario no experimente
+          una mala experiencia al usar ofimatica y el navegador <a href="https://brave.com/" class="Link-1">Brave</a> para quitar las distracciones y pueda trabajar comodamente</h3>
+        </div>
+        <div class="logo-debian-div">
+          <img src="debian.png" alt="Logo Debian" class="logo-debian-img">
+        </div>
+      </div>
+    </section>
+    <section id="descarga" aria-labelledby="copy">
+      <div class="descarga sec-layout what-kebianos">
+        <div class="info-dowload">
+          <h2 class="title-1">Descarga ultima version</h2>
+        </div>
+        <div class="download">
+          <h3 class="copy">Descargar la ISO de la ultima vercion estable (pre-release) de KebianOS</h3>
+          <h3 class="copy">Si desea saber como instalar este sistema operativo en su computadora, vea las <a href="instrucciones.html" class="Link-1">Instrucciones de instalacion</a></h3>
+          <a class="boton boton-descarga copy" href="https://sourceforge.net/projects/kebianos/files/KebianOS-1.1-Stable.iso/download">KebianOS 1.1 estable</a>
+        </div> 
+      </div>
+    </section>
   </body>
 </html>
