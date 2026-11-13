@@ -1,0 +1,133 @@
+body {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+h1 {
+    color: #114dc6;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #10204e;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #114dc6;
+    border-radius: 0px 0px 15px 15px;
+}
+.site-header {
+    position: relative;
+    z-index: 5;
+    /*background: var(--navy);*/
+    border-bottom: 2px solid color#114dc5;
+}
+p {
+    font-family: Arial, sans-serif;
+}
+a {
+    font-family: Arial, sans-serif;
+}
+
+.title-1 {
+    font-family: Arial, sans-serif;
+    margin: 16px;
+    font-size: 40px;
+}
+.copy {
+    font-family: Arial, sans-serif;
+    margin: 17px;
+    max-width: 770px;
+    color: #ffffff;
+}
+.what-kebianos {
+    width: min(1290px, calc(100% - 48px));
+    margin-inline: auto;
+    margin-top: 20px;
+}
+.boton {
+    min-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.boton-descarga {
+    background: #10204e;
+    color: #fff;
+}
+.boton-descarga:hover {
+    background: #114dc6;
+}
+.sec-layaut {
+    display: grid;
+    grid-template-columns: 1.1fr 0.75fr;
+    gap: 70px;
+    align-items: end;
+}
+.Link-1 {
+    color: #6a69c2;
+}
+.logo-debian-img {
+    width: 300px;
+    height: 300px;
+}
+.logo-debian-div {
+    justify-content: right;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand p {
+    margin: 4px 0 0;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a,
+nav button {
+    color: white;
+    text-decoration: none;
+}
+
+nav button {
+    cursor: pointer;
+    font: inherit;
+    background: none;
+    border: 0;
+    padding: 0;
+}
+
+nav a:hover,
+nav button:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.descargar-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
