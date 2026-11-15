@@ -25,7 +25,7 @@ header {
     position: relative;
     z-index: 5;
     /*background: var(--navy);*/
-    border-bottom: 2px solid color#114dc5;
+    border-bottom: 2px solid #114dc5;
 }
 p {
     font-family: Arial, sans-serif;
@@ -33,7 +33,12 @@ p {
 a {
     font-family: Arial, sans-serif;
 }
-
+.of {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    margin: 17px;
+    color: #ffffff;
+}
 .title-1 {
     font-family: Arial, sans-serif;
     margin: 16px;
@@ -130,4 +135,61 @@ nav button:hover {
     width: 80px;
     height: 80px;
     object-fit: contain;
+}
+
+/* Seccion del escritorio: logo de KDE al inicio, igual que el de Debian pero invertido */
+.sec-reverse {
+    grid-template-columns: 0.75fr 1.1fr;
+}
+.logo-kde-img {
+    width: 250px;
+    height: 250px;
+    padding-left: 100px;
+}
+
+/* Capturas de pantalla */
+.capturas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 17px 17px 40px;
+}
+.captura {
+    margin: 0;
+}
+.captura img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #114dc6;
+    border-radius: 15px;
+    background-color: #10204e;
+}
+.captura figcaption {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    color: #c9d4f0;
+}
+
+/* Pantallas pequenas: todo en una columna */
+@media (max-width: 800px) {
+    .sec-layaut,
+    .sec-reverse {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .capturas-grid {
+        grid-template-columns: 1fr;
+    }
+    .logo-debian-img,
+    .logo-kde-img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+.logo-kebianos-img {
+    width: 230px;
+    height: 250px;
 }
