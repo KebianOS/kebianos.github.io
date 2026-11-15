@@ -193,3 +193,10 @@ nav button:hover {
     width: 230px;
     height: 250px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+#descarga {
+    min-height: 100vh;
+}
