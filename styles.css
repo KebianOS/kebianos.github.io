@@ -1,13 +1,14 @@
 body {
     color: #ffffff;
     background-color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
 h1 {
     color: #114dc6;
     font-size: 60px;
     font-weight: bold;
-    font-family: Arial, sans-serif;
     margin: 0;
 }
 
@@ -27,28 +28,22 @@ header {
     /*background: var(--navy);*/
     border-bottom: 2px solid #114dc5;
 }
-p {
-    font-family: Arial, sans-serif;
-}
-a {
-    font-family: Arial, sans-serif;
-}
 .of {
-    font-family: Arial, sans-serif;
-    font-size: 17px;
     margin: 17px;
     color: #ffffff;
 }
 .title-1 {
-    font-family: Arial, sans-serif;
     margin: 16px;
     font-size: 40px;
 }
 .copy {
-    font-family: Arial, sans-serif;
     margin: 17px;
     max-width: 770px;
     color: #ffffff;
+}
+.copy,
+.of {
+    font-size: 16px;
 }
 .what-kebianos {
     width: min(1290px, calc(100% - 48px));
@@ -71,7 +66,7 @@ a {
 .boton-descarga:hover {
     background: #114dc6;
 }
-.sec-layaut {
+.sec-layout {
     display: grid;
     grid-template-columns: 1.1fr 0.75fr;
     gap: 70px;
@@ -166,14 +161,13 @@ nav button:hover {
     background-color: #10204e;
 }
 .captura figcaption {
-    font-family: Arial, sans-serif;
     margin-top: 10px;
     color: #c9d4f0;
 }
 
 /* Pantallas pequenas: todo en una columna */
 @media (max-width: 800px) {
-    .sec-layaut,
+    .sec-layout,
     .sec-reverse {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -185,6 +179,9 @@ nav button:hover {
     .logo-kde-img {
         max-width: 100%;
         height: auto;
+    }
+    .logo-kde-img {
+        padding-left: 0;
     }
 }
 
