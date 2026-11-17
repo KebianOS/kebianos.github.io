@@ -66,6 +66,51 @@ header {
 .boton-descarga:hover {
     background: #114dc6;
 }
+.download-page {
+    display: grid;
+    gap: 28px;
+    padding-block: 20px 48px;
+}
+.download-intro {
+    max-width: 770px;
+}
+.download-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 28px;
+    background: #10204e;
+    border: 1px solid #114dc6;
+    border-radius: 15px;
+}
+.download-eyebrow,
+.download-note {
+    color: #c9d4f0;
+    font-size: 16px;
+}
+.download-eyebrow {
+    margin: 0 0 8px;
+}
+.download-version {
+    margin: 0;
+    font-size: 28px;
+}
+.download-card .copy {
+    margin: 8px 0;
+}
+.download-note {
+    margin: 8px 0 0;
+}
+.download-action {
+    flex-shrink: 0;
+}
+.download-help {
+    max-width: 770px;
+}
+.download-help .title-1 {
+    margin-left: 0;
+}
 .sec-layout {
     display: grid;
     grid-template-columns: 1.1fr 0.75fr;
@@ -171,6 +216,10 @@ nav button:hover {
     .sec-reverse {
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+    .download-card {
+        align-items: flex-start;
+        flex-direction: column;
     }
     .capturas-grid {
         grid-template-columns: 1fr;
